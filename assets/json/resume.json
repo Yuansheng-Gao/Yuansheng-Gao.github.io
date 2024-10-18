@@ -79,5 +79,15 @@
         "Multi-Objective Problems"
       ]
     }
+  ],
+  "Professional Services": [
+    {
+      "name": "Journal Reviewer",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Journal of Bionic Engineering",
+        "Journal of Electrochemical Energy Conversion and Storage"
+      ]
+    }
   ]
 }
