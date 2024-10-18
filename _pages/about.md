@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student of <a href='https://www.zju.edu.cn/'>Zhejiang University</a>
+subtitle: Ph.D. student of <a href='http://www.en.cs.zju.edu.cn/'>Zhejiang University</a>
 
 profile:
   align: right
@@ -14,8 +14,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, it's great to see you ~ 👋
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am currently pursuing my Ph.D. degree in Computer Science and Technology at [Zhejiang University](http://www.en.cs.zju.edu.cn/) under the Senior Engineer [Zonghui Wang](https://person.zju.edu.cn/en/zhwang) and Professor [Wenzhi Chen](https://person.zju.edu.cn/en/0092215) since 2024. Prior to that, I received my B.Sc. degree in Information and Computing Science from [Liaoning Technical University](https://en.lntu.edu.cn/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+`Research`: My research focuses on generative artificial intelligence, particularly (multimodal) large language models. I am specifically exploring content safety, knowledge-based question answering, prompt learning, and fine-tuning methods. Additionally, I have a strong interest in the intersection of AI with the arts and other humanities disciplines.
