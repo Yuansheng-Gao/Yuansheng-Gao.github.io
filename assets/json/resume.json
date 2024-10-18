@@ -3,7 +3,7 @@
     "name": "Yuansheng Gao",
     "label": "Ph.D. student",
     "image": "assets/img/yuansheng-gao.jpg",
-    "email": "y.gao@zju.eud.cn"
+    "email": "y.gao@zju.edu.cn"
   },
   "education": [
     {
@@ -28,11 +28,11 @@
       "courses": ["LNTU Top 10 Student Science and Technology Academic Pacesetters"]
     }
   ],
-  "awards": [
+  "honors and awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
+      "title": "LNTU Top 10 Student Science and Technology Academic Pacesetters",
+      "date": "2022-06",
+      "awarder": "Liaoning Technical University",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
