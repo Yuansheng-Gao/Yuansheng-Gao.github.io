@@ -38,27 +38,7 @@
   ],
   "Professional Services": [
     {
-      "Journal Reviewer": "Journal of Bionic Engineering, Journal of Electrochemical Energy Conversion and Storage"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Generative Artificial Intelligence",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Toxicity Detection via Pre-trained Large Models",
-        "Prompt Learning",
-        "Fine-Tuning"
-      ]
-    },
-    {
-      "name": "Metaheuristics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Multi/Single-Objective Problem",
-        "Generic Improvement Strategies",
-        "Real-World Applications"
-      ]
+      "Journal Reviewer": ["Journal of Bionic Engineering", "Journal of Electrochemical Energy Conversion and Storage"]
     }
   ]
 }
