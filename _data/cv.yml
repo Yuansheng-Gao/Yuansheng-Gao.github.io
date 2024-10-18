@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Yuansheng Gao
     - name: Date of Birth
-      value: 14th March 1879
+      value: 28th July 2002
     - name: Languages
-      value: English, German
+      value: Chinese
 
 - title: Education
   type: time_table
