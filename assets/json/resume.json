@@ -28,11 +28,17 @@
       "courses": ["LNTU Top 10 Student Science and Technology Academic Pacesetters"]
     }
   ],
-  "honors_and_awards": [
+  "honors and awards": [
     {
       "title": "LNTU Top 10 Student Science and Technology Academic Pacesetters",
       "date": "2022-06",
       "awarder": "Liaoning Technical University",
+      "url": "assets/img/十佳学生科技学术标兵.png/"
+    },
+    {
+      "title": "China Undergraduate Mathematical Contest in Modeling-Second Prize",
+      "date": "2021-11",
+      "awarder": "China Society for Industrial and Applied Mathematics",
       "url": "assets/img/十佳学生科技学术标兵.png/"
     }
   ],
