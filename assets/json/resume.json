@@ -32,12 +32,16 @@
     {
       "title": "LNTU Top 10 Student Science and Technology Academic Pacesetters",
       "date": "2022-06",
-      "awarder": "Liaoning Technical University"
+      "awarder": "Liaoning Technical University",
+      "url": "",
+      "summary": ""
     },
     {
       "title": "China Undergraduate Mathematical Contest in Modeling-Second Prize",
       "date": "2021-11",
-      "awarder": "China Society for Industrial and Applied Mathematics"
+      "awarder": "China Society for Industrial and Applied Mathematics",
+      "url": "",
+      "summary": ""
     }
   ],
   "publications": [
@@ -57,7 +61,7 @@
       "name": "An improved deep extreme learning machine to predict the remaining useful life of lithium-ion battery",
       "publisher": "Frontiers in Energy Research",
       "releaseDate": "2022-11-02",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie"
+      "url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2022.1032660/full"
      }
   ],
   "interests": [
