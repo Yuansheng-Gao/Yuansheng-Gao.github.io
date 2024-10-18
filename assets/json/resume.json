@@ -19,26 +19,31 @@
       "startDate": "2020-09",
       "endDate": "2024-07",
       "score": "1",
-      "courses": ["LNTU Top 10 Student Science and Technology Academic Pacesetters"]
+      "courses": [
+        "LNTU Top 10 Student Science and Technology Academic Pacesetters"
+      ]
     }
   ],
-  "Honors and Awards": [
+  "honors and awards": [
     {
       "title": "LNTU Top 10 Student Science and Technology Academic Pacesetters",
       "date": "2022-06",
       "awarder": "Liaoning Technical University",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/"
     },
     {
       "title": "Second Prize of China Undergraduate Mathematical Contest in Modeling",
       "date": "2021-11",
       "awarder": "China Society for Industrial and Applied Mathematics",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      }
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/"
+    }
   ],
-  "Professional Services": [
+  "professional services": [
     {
-      "Journal Reviewer": ["Journal of Bionic Engineering", "Journal of Electrochemical Energy Conversion and Storage"]
+      "journal reviewer": [
+        "Journal of Bionic Engineering",
+        "Journal of Electrochemical Energy Conversion and Storage"
+      ]
     }
   ]
 }
