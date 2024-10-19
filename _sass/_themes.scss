@@ -74,7 +74,7 @@
   }
 }
 
-html[data-theme="light"] {
+html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
@@ -112,10 +112,10 @@ html[data-theme="light"] {
   --global-danger-block-title: #c00;
 
   .repo-img-light {
-    display: block;
+    display: none;
   }
   .repo-img-dark {
-    display: none;
+    display: block;
   }
 }
 
