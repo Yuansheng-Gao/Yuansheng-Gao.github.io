@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Woohoo, we won second prize in the [China Undergraduate Mathematical Contest in Modeling](./assets/img/2021年高教社杯全国大学生数学建模竞赛本科组_二等奖.png)!
+Woohoo, we won second prize in the [China Undergraduate Mathematical Contest in Modeling](assets/img/2021年高教社杯全国大学生数学建模竞赛本科组_二等奖.png)!
