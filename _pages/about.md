@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi, it's great to see you ~ 👋
 
-I am currently pursuing my Ph.D. degree in Computer Science and Technology at [Zhejiang University]([http://www.en.cs.zju.edu.cn/](https://www.zju.edu.cn/english/) under the Senior Engineer [Zonghui Wang](https://person.zju.edu.cn/en/zhwang) and Professor [Wenzhi Chen](https://person.zju.edu.cn/en/0092215) since 2024 🤗. Prior to that, I received my B.Sc. degree in Information and Computing Science from [Liaoning Technical University](https://en.lntu.edu.cn/).
+I am currently pursuing my Ph.D. degree in Computer Science and Technology at [Zhejiang University](https://www.zju.edu.cn/english/) under the Senior Engineer [Zonghui Wang](https://person.zju.edu.cn/en/zhwang) and Professor [Wenzhi Chen](https://person.zju.edu.cn/en/0092215) since 2024 🤗. Prior to that, I received my B.Sc. degree in Information and Computing Science from [Liaoning Technical University](https://en.lntu.edu.cn/).
 
 **Current Research**: My research focuses on [generative artificial intelligence](https://en.wikipedia.org/wiki/Generative_artificial_intelligence), particularly (multimodal) large language models 🤖. I am specifically exploring content safety, knowledge-based Q&A, prompt learning, and fine-tuning✨. Additionally, I have a keen interest in the intersection of AI with the arts and other humanities disciplines 😊.
 
