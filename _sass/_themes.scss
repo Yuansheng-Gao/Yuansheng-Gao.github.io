@@ -133,6 +133,11 @@ html[data-theme-setting="dark"] {
   #light-toggle-light {
     display: none;
   }
+  
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+  }
 }
 
 html[data-theme-setting="light"] {
@@ -148,5 +153,14 @@ html[data-theme-setting="light"] {
     padding-left: 10px;
     padding-top: 12px;
     display: block;
+  }
+  #back-to-top {
+      color: #{$black-color};
+      background: rgba(
+      #{color.channel($black-color, "red", $space: rgb)},
+      #{color.channel($black-color, "green", $space: rgb)},
+      #{color.channel($black-color, "blue", $space: rgb)},
+      0.5
+    );
   }
 }
