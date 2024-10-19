@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. student of <a href='http://www.en.cs.zju.edu.cn/'>Zhejiang University</a>
+subtitle: Ph.D. student at <a href='http://www.en.cs.zju.edu.cn/'>Zhejiang University</a>
 
 profile:
   align: right
