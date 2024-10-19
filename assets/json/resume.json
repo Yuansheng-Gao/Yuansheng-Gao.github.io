@@ -9,7 +9,7 @@
     {
       "institution": "Zhejiang University, Hangzhou, China",
       "location": "Hangzhou, China",
-      "url": "https://www.zju.edu.cn/",
+      "url": "http://www.en.cs.zju.edu.cn/",
       "area": "College of Computer Science and Technology",
       "studyType": "Ph.D.",
       "startDate": "2024-09",
@@ -19,9 +19,9 @@
     {
       "institution": "Liaoning Technical University, Fuxin, China",
       "location": "Fuxin, China",
-      "url": "https://www.lntu.edu.cn/",
+      "url": "https://en.lntu.edu.cn/",
       "area": "College of Science",
-      "studyType": "B.S.",
+      "studyType": "B.Sc.",
       "startDate": "2020-09",
       "endDate": "2024-07",
       "score": "10",
