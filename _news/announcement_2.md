@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Woohoo, we won second prize in the [China Undergraduate Mathematical Contest in Modeling](_news/2021CUMCM.png)!
+Woohoo, we won second prize in the [China Undergraduate Mathematical Contest in Modeling](/_news/2021CUMCM.png)!
