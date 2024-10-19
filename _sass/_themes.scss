@@ -1,64 +1,60 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>主题切换示例</title>
-    <style>
-        /*******************************************************************************
-         * Themes
-         ******************************************************************************/
+// _themes.scss
 
-        @use "sass:color";
+// 定义主题颜色
+$light-bg-color: #ffffff; // 光明主题背景色
+$light-text-color: #000000; // 光明主题文本色
+$dark-bg-color: #333333; // 暗黑主题背景色
+$dark-text-color: #ffffff; // 暗黑主题文本色
 
-        :root {
-          --global-bg-color: #ffffff; /* 光明主题背景色 */
-          --global-text-color: #000000; /* 光明主题文本色 */
-        }
+:root {
+    --global-bg-color: $light-bg-color;
+    --global-text-color: $light-text-color;
+}
 
-        html[data-theme="dark"] {
-          --global-bg-color: #333333; /* 暗黑主题背景色 */
-          --global-text-color: #ffffff; /* 暗黑主题文本色 */
-        }
+html[data-theme="dark"] {
+    --global-bg-color: $dark-bg-color;
+    --global-text-color: $dark-text-color;
+}
 
-        body {
-          background-color: var(--global-bg-color);
-          color: var(--global-text-color;
-          transition: background-color 0.3s ease, color 0.3s ease; /* 添加过渡效果 */
-        }
+body {
+    background-color: var(--global-bg-color);
+    color: var(--global-text-color);
+    transition: background-color 0.3s ease, color 0.3s ease; // 添加过渡效果
+    font-family: Arial, sans-serif; // 设置字体
+}
 
-        #theme-toggle {
-          display: none; /* 隐藏复选框 */
-        }
+#theme-toggle {
+    display: none; // 隐藏复选框
+}
 
-        #theme-toggle:checked ~ body {
-          background-color: #333333; /* 暗黑主题背景色 */
-          color: #ffffff; /* 暗黑主题文本色 */
-        }
+label {
+    cursor: pointer; // 鼠标悬停为指针
+    padding: 10px;
+    background-color: $light-bg-color;
+    color: $dark-text-color;
+    border: 1px solid $dark-text-color;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+        background-color: lighten($light-bg-color, 10%);
+    }
+}
 
-        /* 样式切换标签 */
-        label {
-          cursor: pointer;
-          padding: 10px;
-          background-color: #007bff;
-          color: #ffffff;
-          border-radius: 5px;
-          transition: background-color 0.3s ease; /* 添加过渡效果 */
-        }
-
-        #theme-toggle:checked + label {
-          background-color: #0056b3; /* 按钮按下时的颜色 */
-        }
-    </style>
-</head>
-<body>
-    <input type="checkbox" id="theme-toggle" />
-    <label for="theme-toggle">切换主题</label>
-
-    <div id="back-to-top">返回顶部</div>
-
-    <script>
-        // 这个部分是用于 JavaScript 的可选部分，可以通过 JavaScript 进一步增强功能
-    </script>
-</body>
-</html>
+// 返回顶部按钮样式
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: $dark-text-color;
+    color: $light-bg-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+        background-color: darken($dark-text-color, 10%);
+    }
+}
