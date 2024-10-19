@@ -47,20 +47,21 @@
   }
 
   #light-toggle-dark {
-    display: none;
-  }
-
-  #light-toggle-light {
     padding-left: 10px;
     padding-top: 12px;
     display: block;
+
+  }
+
+  #light-toggle-light {
+    display: none;
   }
 
   .repo-img-light {
-    display: block;
+    display: none;
   }
   .repo-img-dark {
-    display: none;
+    display: block;
   }
 
   #back-to-top {
