@@ -154,4 +154,8 @@ html[data-theme-setting="light"] {
     padding-top: 12px;
     display: block;
   }
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+  }
 }
