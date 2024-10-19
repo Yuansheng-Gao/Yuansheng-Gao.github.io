@@ -5,6 +5,7 @@
 @use "sass:color";
 
 :root {
+  // 明亮模式的变量
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
@@ -53,7 +54,7 @@
   }
 
   #light-toggle-light {
-    display: none;
+    display: block; // 显示亮模式切换
   }
 
   .repo-img-light {
@@ -74,6 +75,7 @@
   }
 }
 
+// 黑暗模式的样式
 html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
@@ -98,40 +100,28 @@ html[data-theme="dark"] {
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
-
   .repo-img-light {
-    display: none;
+    display: none; // 隐藏亮模式图像
   }
   .repo-img-dark {
-    display: block;
+    display: block; // 显示暗模式图像
   }
 }
 
+// 切换至黑暗模式设置
 html[data-theme-setting="dark"] {
   #light-toggle-system {
-    display: none;
+    display: none; // 隐藏切换系统按钮
   }
 
   #light-toggle-dark {
     padding-left: 10px;
     padding-top: 12px;
-    display: block;
+    display: block; // 显示切换至暗模式按钮
   }
 
   #light-toggle-light {
-    display: none;
+    display: none; // 隐藏切换至亮模式按钮
   }
 
   #back-to-top {
@@ -140,18 +130,19 @@ html[data-theme-setting="dark"] {
   }
 }
 
+// 切换至亮模式设置
 html[data-theme-setting="light"] {
   #light-toggle-system {
-    display: none;
+    display: none; // 隐藏切换系统按钮
   }
 
   #light-toggle-dark {
-    display: none;
+    display: none; // 隐藏切换至暗模式按钮
   }
 
   #light-toggle-light {
     padding-left: 10px;
     padding-top: 12px;
-    display: block;
+    display: block; // 显示切换至亮模式按钮
   }
 }
