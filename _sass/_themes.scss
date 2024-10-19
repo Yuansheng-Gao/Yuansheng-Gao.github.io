@@ -47,20 +47,20 @@
   }
 
   #light-toggle-dark {
+    display: none;
+  }
+
+  #light-toggle-light {
     padding-left: 10px;
     padding-top: 12px;
     display: block;
   }
 
-  #light-toggle-light {
-    display: none;
-  }
-
   .repo-img-light {
-    display: none;
+    display: block;
   }
   .repo-img-dark {
-    display: block;
+    display: none;
   }
 
   #back-to-top {
@@ -74,7 +74,7 @@
   }
 }
 
-html[data-theme="dark"] {
+html[data-theme="light"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
@@ -112,10 +112,10 @@ html[data-theme="dark"] {
   --global-danger-block-title: #c00;
 
   .repo-img-light {
-    display: none;
+    display: block;
   }
   .repo-img-dark {
-    display: block;
+    display: none;
   }
 }
 
