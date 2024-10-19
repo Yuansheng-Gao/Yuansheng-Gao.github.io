@@ -43,7 +43,9 @@
   --global-danger-block-title: #c00;
 
   #light-toggle-system {
-    display: none;
+    padding-left: 10px;
+    padding-top: 12px;
+    display: block;
   }
 
   #light-toggle-dark {
@@ -51,9 +53,7 @@
   }
 
   #light-toggle-light {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
+    display: none;
   }
 
   .repo-img-light {
@@ -133,14 +133,7 @@ html[data-theme-setting="dark"] {
   #light-toggle-light {
     display: none;
   }
-  
-  .repo-img-light {
-    display: none;
-  }
-  .repo-img-dark {
-    display: block;
-  }
-  
+
   #back-to-top {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
@@ -160,11 +153,5 @@ html[data-theme-setting="light"] {
     padding-left: 10px;
     padding-top: 12px;
     display: block;
-  }
-  .repo-img-light {
-    display: block;
-  }
-  .repo-img-dark {
-    display: none;
   }
 }
