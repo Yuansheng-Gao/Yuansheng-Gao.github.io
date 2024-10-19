@@ -69,7 +69,8 @@
       "name": "Generative Artificial Intelligence",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Toxicity Detection via Pre-trained Language Models",
+        "Content Safety",
+        "Knowledge-Based Q&A",
         "Prompt Learning",
         "Fine-Tuning"
       ]
