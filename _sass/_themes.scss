@@ -1,157 +1,64 @@
-/*******************************************************************************
- * Themes
- ******************************************************************************/
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主题切换示例</title>
+    <style>
+        /*******************************************************************************
+         * Themes
+         ******************************************************************************/
 
-@use "sass:color";
+        @use "sass:color";
 
-:root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+        :root {
+          --global-bg-color: #ffffff; /* 光明主题背景色 */
+          --global-text-color: #000000; /* 光明主题文本色 */
+        }
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+        html[data-theme="dark"] {
+          --global-bg-color: #333333; /* 暗黑主题背景色 */
+          --global-text-color: #ffffff; /* 暗黑主题文本色 */
+        }
 
-  #light-toggle-system {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: none;
-  }
+        body {
+          background-color: var(--global-bg-color);
+          color: var(--global-text-color;
+          transition: background-color 0.3s ease, color 0.3s ease; /* 添加过渡效果 */
+        }
 
-  #light-toggle-dark {
-    display: none;
-  }
+        #theme-toggle {
+          display: none; /* 隐藏复选框 */
+        }
 
-  #light-toggle-light {
-    display: block;
-  }
+        #theme-toggle:checked ~ body {
+          background-color: #333333; /* 暗黑主题背景色 */
+          color: #ffffff; /* 暗黑主题文本色 */
+        }
 
-  .repo-img-light {
-    display: block;
-  }
-  .repo-img-dark {
-    display: none;
-  }
+        /* 样式切换标签 */
+        label {
+          cursor: pointer;
+          padding: 10px;
+          background-color: #007bff;
+          color: #ffffff;
+          border-radius: 5px;
+          transition: background-color 0.3s ease; /* 添加过渡效果 */
+        }
 
-  #back-to-top {
-    color: var(--global-back-to-top-text-color);
-    background: var(--global-back-to-top-bg-color);
-    bottom: $back-to-top-bottom;
-    right: $back-to-top-right;
-    height: $back-to-top-height;
-    width: $back-to-top-width;
-    z-index: $back-to-top-z-index;
-  }
-}
+        #theme-toggle:checked + label {
+          background-color: #0056b3; /* 按钮按下时的颜色 */
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="theme-toggle" />
+    <label for="theme-toggle">切换主题</label>
 
-html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+    <div id="back-to-top">返回顶部</div>
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
-
-  .repo-img-light {
-    display: none;
-  }
-  .repo-img-dark {
-    display: block;
-  }
-}
-
-html[data-theme-setting="dark"] {
-  #light-toggle-system {
-    display: none;
-  }
-
-  #light-toggle-dark {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
-  }
-
-  #light-toggle-light {
-    display: none;
-  }
-
-  #back-to-top {
-    color: var(--global-back-to-top-text-color);
-    background: var(--global-back-to-top-bg-color);
-  }
-}
-
-html[data-theme-setting="light"] {
-  #light-toggle-system {
-    display: none;
-  }
-
-  #light-toggle-dark {
-    display: none;
-  }
-
-  #light-toggle-light {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
-  }
-}
+    <script>
+        // 这个部分是用于 JavaScript 的可选部分，可以通过 JavaScript 进一步增强功能
+    </script>
+</body>
+</html>
