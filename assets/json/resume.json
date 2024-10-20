@@ -46,19 +46,19 @@
   ],
   "publications": [
     {
-      "name": "Love evolution algorithm: A stimulus–value–role theory-inspired evolutionary algorithm for global optimization",
-      "publisher": "Expert Systems With Applications",
+      "name": "Love Evolution Algorithm: A Stimulus–Value–Role Theory-Inspired Evolutionary Algorithm for Global Optimization",
+      "publisher": "Journal of Supercomputing",
       "releaseDate": "2024-02-12",
       "url": "https://link.springer.com/article/10.1007/s11227-024-05905-4"
     },
     {
-      "name": "PID-based search algorithm: a novel metaheuristic algorithm based on PID algorithm",
+      "name": "PID-Based Search Algorithm: A Novel Metaheuristic Algorithm Based on PID Algorithm",
       "publisher": "Expert Systems With Applications",
       "releaseDate": "2023-12-01",
       "url": "https://www.sciencedirect.com/science/article/abs/pii/S095741742301388X"
     },
     {
-      "name": "An improved deep extreme learning machine to predict the remaining useful life of lithium-ion battery",
+      "name": "An Improved Deep Extreme Learning Machine to Predict the Remaining Useful Life of Lithium-ion Battery",
       "publisher": "Frontiers in Energy Research",
       "releaseDate": "2022-11-02",
       "url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2022.1032660/full"
