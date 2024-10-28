@@ -71,9 +71,9 @@
       "keywords": ["Content Safety", "Knowledge-Based Q&A", "Prompt Learning", "Fine-Tuning"]
     },
     {
-      "name": "Metaheuristics",
+      "name": "Evolutionary Computation",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Improvement Strategies", "Real-World Applications", "Multi-Objective Problems"]
+      "keywords": ["Improvement Strategies", "Real-World Applications", "Multi-Objective Problems", "Theory"]
     }
   ]
 }
