@@ -58,6 +58,7 @@
   ],
   "services": {
     "name": "Journal Reviewer",
+    "icon": "fa-solid fa-tag",
     "keyeords": ["Journal of Bionic Engineering", "Journal of Supercomputing", "Journal of Electrochemical Energy Conversion and Storage"]
   }
 }
