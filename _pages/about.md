@@ -1,6 +1,6 @@
 ---
-layout: about
-title: about
+layout: About
+title: About
 permalink: /
 subtitle: Ph.D. student at <a href='http://www.en.cs.zju.edu.cn/'>Zhejiang University</a>
 
