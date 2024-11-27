@@ -6,11 +6,11 @@ inline: false
 related_posts: false
 ---
 
-Infinite Evolution Research Group (I-Evo) is a research group formed on 11 Nov 2023 to conduct academic discussions and exchanges around Evolutionary Computation and Machine Learning. The main goal of the group is to explore the application of evolutionary algorithms and machine learning to real-world problems through teamwork and communication.
+Infinite Evolution Research Group (I-Evo) is a research group formed on 16 July 2022 to conduct academic discussions and exchanges around Evolutionary Computation and Machine Learning. The main goal of the group is to explore the application of evolutionary algorithms and machine learning to real-world problems through teamwork and communication.
 
 ---
 
-I-Evo was formed by several undergraduate students. Members of the organisation are currently outstanding students from various disciplines, including Zhejiang University, Chinese Academy of Sciences, and Dalian University of Technology.
+I-Evo was formed by several undergraduate students. The group's members are currently Ph.D., M.S. and undergraduate students from a variety of disciplines, including Zhejiang University, Chinese Academy of Sciences, and Dalian University of Technology.
 
 #### Main Activities and Objectives
 
