@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Today, we have established the I-Evo Research Group, a team focused on Evolutionary Computation and Machine Learning.
+title: Today, we have established the I-Evo Research Group
 date: 2022-07-16
 inline: false
 related_posts: false
