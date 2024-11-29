@@ -14,10 +14,6 @@ I-Evo was formed by several undergraduate students. The group's members are curr
 
 #### Main Activities and Objectives
 
-
-Academic Exchange and Learning Sharing: organise regular academic lectures, technical seminars and study groups to promote knowledge exchange and sharing.
-I-Evo is committed to providing an open and innovative learning platform for its members and encouraging exploration and experimentation in the field of evolutionary computing and machine learning.
-
 <ul>
     <li>Perform algorithmic research and applications</li>
     <li>Co-authored papers</li>
