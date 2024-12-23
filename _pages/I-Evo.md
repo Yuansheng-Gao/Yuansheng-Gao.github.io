@@ -3,7 +3,7 @@ layout: page
 title: I-Evo
 permalink: /projects/
 description: Infinite Evolution Research Group
-nav: true
+nav: false
 nav_order: 4
 display_categories: [work, fun]
 horizontal: false
