@@ -18,8 +18,8 @@ Hi, it's great to see you ~ 👋
 
 I am currently pursuing my Ph.D. degree in Computer Science and Technology at [Zhejiang University](https://www.zju.edu.cn/english/) under the Senior Engineer [Zonghui Wang](https://person.zju.edu.cn/en/zhwang) and Professor [Wenzhi Chen](https://person.zju.edu.cn/en/0092215) since 2024 🤗. Prior to that, I received my B.Sc. degree in Information and Computing Science from [Liaoning Technical University](https://en.lntu.edu.cn/).
 
-**Current Research**: My research focuses on `Large Language Models`🤖. I am specifically exploring content safety and hallucination😊.
+**Current Research**: My research focuses on `Large Language Models` 🤖. I am specifically exploring content safety and hallucination 😊.
 
-**Undergraduate Research**: During my undergraduate years, I had the privilege of engaging in mathematical modeling and was awarded second prize🥈 in the [China Undergraduate Mathematical Contest in Modeling](https://en.mcm.edu.cn/) in my sophomore year 🎉. It was during this time that I discovered my interest in `Metaheuristics`✨.
+**Undergraduate Research**: During my undergraduate years, I had the privilege of engaging in mathematical modeling and was awarded second prize🥈 in the [China Undergraduate Mathematical Contest in Modeling](https://en.mcm.edu.cn/) in my sophomore year 🎉. It was during this time that I discovered my interest in `Metaheuristics` ✨.
 
 **Feel free to contact me if you are curious about my research or to discuss potential collaborations, including but not limited to Large Language Models and Metaheuristics!** 😄 You can contact me via Email(y.gao@zju.edu.cn) or WeChat (fyvknh).
