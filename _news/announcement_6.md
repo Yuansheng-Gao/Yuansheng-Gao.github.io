@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our SCI JCR Q1 paper 🕷 [Escape After Love: Philoponella Prominens Optimizer and Its Application to 3D Path Planning](https://link.springer.com/article/10.1007/s10586-024-04761-4), is published🎇!
+Can chaotic mappings be reconstructed into good metaheuristics? Our paper published in Applied Mathematical Modelling: [Logistic-Gauss Circle Optimizer: Theory and Applications](https://www.sciencedirect.com/science/article/abs/pii/S0307904X25001271) gives the answer.
