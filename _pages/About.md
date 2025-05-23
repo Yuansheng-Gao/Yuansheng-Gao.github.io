@@ -6,7 +6,7 @@ subtitle: Ph.D. student at <a href='http://www.en.cs.zju.edu.cn/'>Zhejiang Unive
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
 
 news: true # includes a list of news items
