@@ -22,4 +22,4 @@ I am currently pursuing my Ph.D. degree in Computer Science and Technology at [Z
 
 **Undergraduate Research**: During my undergraduate years, I had the privilege of engaging in mathematical modeling and was awarded second prize🥈 in the [China Undergraduate Mathematical Contest in Modeling](https://en.mcm.edu.cn/) in my sophomore year 🎉. It was during this time that I discovered my interest in `Metaheuristics` ✨.
 
-**Feel free to contact me if you are curious about my research or to discuss potential collaborations, including but not limited to Large Language Models and Metaheuristics!** 😄 You can contact me via Email(y.gao@zju.edu.cn) or WeChat (fyvknh).
+**Feel free to contact me if you are curious about my research or to discuss potential collaborations, including but not limited to Large Language Models and Metaheuristics!** 😄 You can contact me via Email(y.gao@zju.edu.cn).
