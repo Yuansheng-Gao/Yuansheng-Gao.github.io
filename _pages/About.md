@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi, it's great to see you ~ 👋
 
-I am currently pursuing my Ph.D. degree in Computer Science and Technology at [Zhejiang University](https://www.zju.edu.cn/english/) under the Senior Engineer [Zonghui Wang](https://person.zju.edu.cn/en/zhwang) and Professor [Wenzhi Chen](https://person.zju.edu.cn/en/0092215) since 2024 🤗. Prior to that, I received my B.Sc. degree in Information and Computing Science from [Liaoning Technical University](https://en.lntu.edu.cn/).
+I am currently pursuing my Ph.D. degree in Computer Science and Technology at [Zhejiang University](https://www.zju.edu.cn/english/) under the Senior Engineer [Zonghui Wang](https://person.zju.edu.cn/en/zhwang) and Professor [Wenzhi Chen](https://person.zju.edu.cn/en/0092215) since 2024 🤗.
 
 **Current Research**: My research focuses on `Large Language Models` 🤖. I am specifically exploring content safety and hallucination 😊.
 
