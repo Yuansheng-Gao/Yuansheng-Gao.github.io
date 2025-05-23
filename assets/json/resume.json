@@ -46,14 +46,14 @@
   ],
   "interests": [
     {
-      "name": "Generative Artificial Intelligence",
+      "name": "Large Language Models",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Content Safety", "Knowledge-Based Q&A", "Prompt Learning", "Fine-Tuning"]
+      "keywords": ["Content Safety", "Hallucination"]
     },
     {
-      "name": "Evolutionary Computation",
+      "name": "Metaheuristics",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Improvement Strategies", "Real-World Applications", "Multi-Objective Problems", "Theory"]
+      "keywords": ["Improvement Strategies", "Real-World Applications"]
     }
   ],
   "services": {
