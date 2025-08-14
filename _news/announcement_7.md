@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-03-07
+date: 2025-08-01
 inline: true
 related_posts: false
 ---
 
-Can chaotic mappings be reconstructed into good metaheuristics? Our paper published in Applied Mathematical Modelling: [Logistic-Gauss Circle Optimizer: Theory and Applications](https://www.sciencedirect.com/science/article/abs/pii/S0307904X25001271) gives the answer.
+Our paper published in Cluster Computing: [Freedom from Inspiration! Achieving Efficient Metaheuristic Optimization with Delta Plus](https://link.springer.com/article/10.1007/s10586-024-05094-y).
