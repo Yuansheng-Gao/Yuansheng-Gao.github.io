@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper was marked as 🏆 Highly Cited Paper: [Love Evolution Algorithm: A Stimulus–Value–Role Theory-Inspired Evolutionary Algorithm for Global Optimization](/assets/img/LEA-HCP.png).
+Our paper was marked as **🏆 Highly Cited Paper**: [Love Evolution Algorithm: A Stimulus–Value–Role Theory-Inspired Evolutionary Algorithm for Global Optimization](/assets/img/LEA-HCP.png).
